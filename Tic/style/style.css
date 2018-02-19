@@ -1,0 +1,27 @@
+.row1, .row2{
+    display: inline-block;
+    padding: 10%;
+    border-bottom: 5px solid black;
+    margin: 0;
+}
+.col1, .col2{
+    border-right: 5px solid black;
+    
+}
+.row3{
+    display: inline-block;
+    padding: 10%;
+    margin: 0;
+}
+.container{
+    align-items: center
+}
+.row1:hover { 
+    background-color: yellow;
+} 
+.row2:hover { 
+    background-color: yellow;
+} 
+.row3:hover { 
+    background-color: yellow;
+}
